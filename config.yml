@@ -1,0 +1,7 @@
+- name: kuaidaili
+  path_fmt: http://www.kuaidaili.com/free/intr/%d/
+  start: 1
+  xpath: //*[@id="list"]/table/tbody/tr
+  position:
+    Ip: "./td[1]"
+    Port: "./td[2]"
